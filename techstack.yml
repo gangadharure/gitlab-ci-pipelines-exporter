@@ -1,0 +1,679 @@
+repo_name: gangadharure/gitlab-ci-pipelines-exporter
+report_id: 0505bd0dbfa365515036c907ec5ab64e
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T15:16:29+00:00'
+requested_by: mvisonneau
+provider: github
+branch: main
+detected_tools_count: 48
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2019-05-27 20:56:50.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/examples/ha-setup/docker-compose.yml
+  detection_source: examples/ha-setup/docker-compose.yml
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-04-28 07:17:14.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/.github/workflows/release.yml
+  detection_source: ".github/workflows/release.yml"
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-02-11 11:33:22.000000000 Z
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/examples/opentelemetry/docker-compose.yml
+  detection_source: examples/opentelemetry/docker-compose.yml
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-04-28 07:17:14.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/examples/opentelemetry/docker-compose.yml
+  detection_source: examples/opentelemetry/docker-compose.yml
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-04-28 07:17:14.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  version: 3.17.0
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:47:51.000000000 Z
+- name: appengine
+  description: Go App Engine packages
+  package_url: https://pkg.go.dev/google.golang.org/appengine
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2021-05-28 09:56:41.000000000 Z
+- name: client_model
+  description: Data model artifacts for Prometheus
+  package_url: https://pkg.go.dev/github.com/prometheus/client_model
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: common
+  description: Go libraries shared across Prometheus components and libraries
+  package_url: https://pkg.go.dev/github.com/prometheus/common
+  version: 0.39.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: compress
+  description: Optimized compression packages
+  package_url: https://pkg.go.dev/github.com/klauspost/compress
+  version: 1.15.13
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.9.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2020-10-01 15:28:07.000000000 Z
+- name: go-cleanhttp
+  description: Cleanhttp Functions for accessing "clean" Go http.Client values The
+    Go standard library contains a default called
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-cleanhttp
+  version: 0.5.1
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: go-colorful
+  description: A library for playing with colors in go
+  package_url: https://pkg.go.dev/github.com/lucasb-eyer/go-colorful
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2021-08-19 12:13:49.000000000 Z
+- name: go-difflib
+  description: Partial port of Python difflib package to Go
+  package_url: https://pkg.go.dev/github.com/pmezard/go-difflib
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2021-08-19 12:13:49.000000000 Z
+- name: go-farm
+  description: 'Go-farm: a pure-Go farmhash implementation'
+  package_url: https://pkg.go.dev/github.com/dgryski/go-farm
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2021-08-19 12:13:49.000000000 Z
+- name: go-gitlab
+  description: A GitLab API client enabling Go programs to interact with GitLab in
+    a simple and uniform way
+  package_url: https://pkg.go.dev/github.com/xanzy/go-gitlab
+  version: 0.77.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-08-25 07:19:49.000000000 Z
+- name: go-querystring
+  description: Go-querystring is Go library for encoding structs into URL query parameters
+  package_url: https://pkg.go.dev/github.com/google/go-querystring
+  version: 1.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2021-08-19 12:13:49.000000000 Z
+- name: go-retryablehttp
+  description: Retryable HTTP client in Go
+  package_url: https://pkg.go.dev/github.com/hashicorp/go-retryablehttp
+  version: 0.7.1
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: go-runewidth
+  description: Go-runewidth Provides functions to get fixed width of the character
+    or string
+  package_url: https://pkg.go.dev/github.com/mattn/go-runewidth
+  version: 0.0.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  version: 1.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2021-08-19 12:13:49.000000000 Z
+- name: go-sqlmock.v1
+  description: Package sqlmock is a mock library implementing sql driver
+  package_url: https://pkg.go.dev/gopkg.in/DATA-DOG/go-sqlmock.v1
+  version: 1.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2021-08-19 12:13:49.000000000 Z
+- name: golang-lru
+  description: Golang LRU cache
+  package_url: https://pkg.go.dev/github.com/hashicorp/golang-lru
+  version: 0.5.0
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: golang_protobuf_extensions
+  description: Support for streaming Protocol Buffer messages for the Go language
+  package_url: https://pkg.go.dev/github.com/matttproud/golang_protobuf_extensions
+  version: 1.0.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: gopher-lua
+  description: 'GopherLua: VM and compiler for Lua in Go'
+  package_url: https://pkg.go.dev/github.com/yuin/gopher-lua
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-03-31 11:40:25.000000000 Z
+- name: heptiolabs/healthcheck
+  description: A library for implementing Kubernetes liveness and readiness probe
+    handlers in your Go application
+  package_url: https://pkg.go.dev/github.com/heptiolabs/healthcheck
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-02-11 11:41:35.000000000 Z
+- name: httpsnoop
+  description: Package httpsnoop provides an easy way to capture http related metrics
+  package_url: https://pkg.go.dev/github.com/felixge/httpsnoop
+  version: 1.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: locales
+  description: ":earth_americas: a set of locales generated from the CLDR Project
+    which can be used independently or within an i18n package; these were built for
+    use with"
+  package_url: https://pkg.go.dev/github.com/go-playground/locales
+  version: 0.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-08-25 07:19:49.000000000 Z
+- name: logr
+  description: A simple logging interface for Go
+  package_url: https://pkg.go.dev/github.com/go-logr/logr
+  version: 1.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-10-28 09:37:15.000000000 Z
+- name: logrus
+  description: Structured, pluggable logging for Go
+  package_url: https://pkg.go.dev/github.com/sirupsen/logrus
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-10-28 09:37:15.000000000 Z
+- name: mergo
+  description: 'Mergo: merging Go structs and maps since 2013'
+  package_url: https://pkg.go.dev/github.com/imdario/mergo
+  version: 0.3.13
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-05-26 19:02:19.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2019-05-27 20:56:50.000000000 Z
+- name: oauth2
+  description: Go OAuth2
+  package_url: https://pkg.go.dev/golang.org/x/oauth2
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: perks
+  description: Effective Computation of Things
+  package_url: https://pkg.go.dev/github.com/beorn7/perks
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2021-08-19 12:13:49.000000000 Z
+- name: procfs
+  description: Procfs provides functions to retrieve system
+  package_url: https://pkg.go.dev/github.com/prometheus/procfs
+  version: 0.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-08-25 07:19:49.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: ratecounter
+  description: A Thread-Safe RateCounter implementation in Golang
+  package_url: https://pkg.go.dev/github.com/paulbellamy/ratecounter
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: smetrics
+  description: String metrics library written in Go
+  package_url: https://pkg.go.dev/github.com/xrash/smetrics
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2019-05-27 20:56:50.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-12-19 08:41:52.000000000 Z
+- name: universal-translator
+  description: ":speech_balloon: i18n Translator for Go/Golang using CLDR data + pluralization
+    rules"
+  package_url: https://pkg.go.dev/github.com/go-playground/universal-translator
+  version: 0.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/gitlab-ci-pipelines-exporter/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Maxime VISONNEAU
+  last_updated_on: 2022-10-28 09:37:15.000000000 Z
